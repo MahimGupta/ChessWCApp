@@ -86,6 +86,18 @@ export default {
         sans: ["var(--font-sans)"],
         serif: ["var(--font-serif)"],
         mono: ["var(--font-mono)"],
+        display: ["var(--font-display)"],
+      },
+      boxShadow: {
+        'neon': 'var(--neon-glow)',
+        'neon-intense': 'var(--neon-glow-intense)',
+        'win': 'var(--win-glow)',
+        'loss': 'var(--loss-glow)',
+        'draw': 'var(--draw-glow)',
+      },
+      textShadow: {
+        'glow': '0 0 10px rgba(147, 51, 234, 0.8), 0 0 20px rgba(59, 130, 246, 0.5)',
+        'glow-sm': '0 0 5px rgba(147, 51, 234, 0.6)',
       },
       keyframes: {
         "accordion-down": {
